@@ -37,7 +37,7 @@ class ListingsController < ApplicationController
 
     def destroy
         #finish logic for deleting the record
-        @lisitng.destroy
+        @listing.destroy
         redirect_to root_path
     end
 
